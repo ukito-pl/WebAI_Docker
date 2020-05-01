@@ -1,0 +1,3 @@
+[submodule "modules/WebAI_App/repo"]
+	path = modules/WebAI_App/repo
+	url = https://github.com/ukito-pl/WebAI_App.git

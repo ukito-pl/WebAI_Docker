@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+
+    # webapp
+    webai_app:
+        build:
+            context: ./modules/WebAI_App/docker
+            target: dev
+        container_name: WebAI_App
+        volumes: 
+            - ./modules/WebAI_App/repo:/home/angular/app
+        ports:
+            - "4200:4200"
+        tty: true
